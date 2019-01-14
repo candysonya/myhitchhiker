@@ -82,8 +82,8 @@
     "Common.p50": "50th",
     "Common.Download": "下载",
 
-    "Login.Desc.Title": "专为团队打造的API测试工具",
-    "Login.Desc.Content": "Hitchhiker是一款{opensource}的Restful API测试工具。您可以把它部署在局域网，它会帮助您和您的团队轻松管理、测试API。{break} {break}更多功能 (文档, Api Mock等)正在开发中，敬请期待。",
+    "Login.Desc.Title": "API测试工具",
+    "Login.Desc.Content": "一款{opensource}的Restful API测试工具。在原工具基础上添加接口和请求的1：N映射关系、以及自动生成字段验证用例等。",
     "Login.Desc.OpenSource": "开源",
     "Login.InvalidEmail": "无效的邮箱!",
     "Login.EmailPlaceholder": "邮箱地址",

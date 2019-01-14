@@ -5,7 +5,7 @@ services:
     container_name: hitchhiker
     environment:
       - HITCHHIKER_DB_HOST=hitchhiker-mysql
-      - HITCHHIKER_APP_HOST=http://localhost:8080/ # should change before deploying.
+      - HITCHHIKER_APP_HOST=http://10.10.56.25:8080/ # should change before deploying.
       # add environment variable to config
     ports:
       - "8080:8080"
