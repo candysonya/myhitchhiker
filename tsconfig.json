@@ -1,0 +1,16 @@
+{
+    "compilerOptions": {
+        "experimentalDecorators": true,
+        "emitDecoratorMetadata": true,
+        "module": "commonjs",
+        "target": "ES6",
+        "outDir": "build",
+        "rootDir": "api",
+        "sourceMap": true,
+        "watch": true
+    },
+    "exclude": [
+        "./client/**/*",
+        "node_modules"
+    ]
+}

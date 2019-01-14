@@ -1,0 +1,27 @@
+version: '2'
+services:
+  hitchhiker:
+    image: brookshi/hitchhiker:v0.14
+    container_name: hitchhiker
+    environment:
+      - HITCHHIKER_DB_HOST=hitchhiker-mysql
+      - HITCHHIKER_APP_HOST=http://localhost:8080/ # should change before deploying.
+      # add environment variable to config
+    ports:
+      - "8080:8080"
+      - "11010:11010"
+    links:
+      - hitchhiker-mysql:hitchhiker-mysql
+    volumes:
+      - /my/hitchhiker/data:/usr/src/Hitchhiker/build/global_data/project
+      - /my/hitchhiker/backup:/usr/src/Hitchhiker/build/backup
+      - /my/hitchhiker/logs:/usr/src/Hitchhiker/build/logs
+  hitchhiker-mysql:
+    image: mysql:5.7
+    container_name: hitchhiker-mysql
+    environment:
+      - MYSQL_ROOT_PASSWORD=hitchhiker888
+      - MYSQL_DATABASE=hitchhiker-prod
+    volumes:
+      - ./hitchhiker-mysql.cnf:/etc/mysql/conf.d/hitchhiker.cnf
+      - /my/hitchhiker/sqldata:/var/lib/mysql

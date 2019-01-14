@@ -1,0 +1,10 @@
+{
+    "apps": [{
+        "name": "hitchhiker",
+        "script": "./build/index.js",
+        "watch": false,
+        "env": {
+            "HITCHHIKER_APP_HOST": "myhost"
+        }
+    }]
+}

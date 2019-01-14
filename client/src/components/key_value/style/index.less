@@ -1,0 +1,66 @@
+@import '../../../style/colors.less';
+.keyvalue-item {
+    list-style: none;
+    margin-bottom: 4px;
+    z-index: 1000;
+    >div {
+        display: inline-block;
+        >label {
+            margin-right: 4px;
+            >span {
+                margin-bottom: 1px;
+            }
+        }
+    }
+    .inputWithoutFav{
+        width: calc(33% - 19px);
+        margin-right: 4px;
+        border-radius: 0px;
+    }
+    .inputWithoutFavAndDescription{
+        width: calc(50% - 34px);
+        margin-right: 4px;
+        border-radius: 0px;
+    }
+    .inputWithFav{
+        width: calc(33% - 27px);
+        margin-right: 4px;
+        border-radius: 0px;
+    }
+    >i {
+        font-weight: bold;
+        cursor: pointer;
+        margin-left: 4px;
+        &:hover {
+            color: red;
+        }
+    }
+}
+
+.keyvalue-dragicon {
+    margin-right: 4px;
+    font-size: 13px;
+    cursor: move;
+    &:hover {
+        color: @primary-color;
+    }
+}
+
+.keyvalue-item-fav-btn {
+    border: 0px;
+    background: transparent;
+    &:hover {
+        color: @primary-color-light;
+        background: transparent;
+    }
+    &:focus {
+        color: @primary-color;
+        background: transparent;
+    }
+}
+
+textarea.req-header[type="textarea"] {
+    height: 300px;
+    border-radius: 0px;
+    font-size: 13px;
+}

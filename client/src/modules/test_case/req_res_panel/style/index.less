@@ -1,0 +1,320 @@
+@import '../../../../style/colors.less';
+@button-width: 88px;
+@url-height: 36px;
+.ant-tabs.ant-tabs-card>.ant-tabs-bar .ant-tabs-tab {
+    background: white;
+}
+
+.ant-tabs.ant-tabs-card>.ant-tabs-bar .ant-tabs-tab-active {
+    background: @panel-background;
+    padding-bottom: 6px;
+}
+
+.record-add-btn {
+    border-radius: 0px;
+    position: relative;
+    right: 2px;
+    top: 2px;
+    height: 26px;
+    border: 0px;
+    font-size: 18px;
+    background: #fafafa;
+    color: #108ee9;
+}
+
+.ant-tabs-nav {
+    padding-left: 8px;
+}
+
+.request-tab {
+    height: 100%;
+    .ant-tabs-bar {
+        margin-bottom: 8px;
+    }
+
+    .ant-tabs-tab-prev-icon, .ant-tabs-tab-next-icon{
+        bottom: 4px;
+    }
+}
+
+.req-res-panel {
+    padding: 0px 10px;
+    margin-top: -8px;
+    padding-top: 8px;
+    background: @panel-background;
+    height: calc(100% - 40px);
+}
+
+.req-panel {
+    width: calc(100% - 20px);
+    display: inline-block;
+}
+
+.req-panel-form {
+    padding-bottom: 8px;
+    .ant-form-item{
+        margin-bottom: 0px;
+    }
+}
+
+.req-panel-name-caret{
+    padding-right: 4px;
+    display: inline-block;
+    color: gray;
+}
+
+.req-panel-name-caret:hover{
+    color: #a2a2a2;
+}
+
+.req-panel-description{
+    textarea{
+        background: @panel-background;
+        border-width: 0px;
+        border-radius: 0px;
+    }
+    textarea:hover{
+        border-width: 1px;
+    }
+}
+
+.url-panel {
+    padding: 4px 0px;
+}
+
+.req-url {
+    width: calc(100% - (@button-width * 2 + 28px));
+    .ant-select-selection__rendered {
+        line-height: @url-height;
+    }
+    .ant-form-item-control-wrapper, 
+    .ant-input-group-wrapper {
+        width: 100%;
+    }
+    .ant-input-group-addon{
+        padding-bottom: 0px;
+        padding-top: 0px;
+    }
+    .ant-select-arrow {
+        margin-top: 2px;
+    }
+    .ant-select-selection-selected-value {
+        margin-top: 2px;
+        font-weight: 600;
+        font-size: 13px;
+        width: 100%;
+        color: #888888;
+    }
+    input {
+        font-size: 14px;
+        height: @url-height;
+    }
+}
+
+.req-name {
+    input {
+        background: @panel-background;
+        border-width: 0px 0px 1px 0px;
+        font-weight: 600;
+        font-size: 15px;
+        border-radius: 0px;
+    }
+}
+
+.req-send {
+    button {
+        width: @button-width;
+        height: @url-height;
+        font-size: 14px;
+        i {
+            margin-left: -8px;
+        }
+    }
+}
+
+.req-save {
+    .ant-btn {
+        font-size: 14px;
+        height: @url-height;
+        background: #eee;
+    }
+    button:first-child {
+        width: 66px;
+    }
+}
+
+.req-res-tabs {
+    div[role="tablist"] {
+        margin-bottom: 8px;
+    }
+    div[role="tab"] {
+        font-size: 12px;
+    }
+}
+
+.req-res-tabs-param-title{
+    line-height: 36px;
+
+    .req-res-tabs-param-title-select{
+        width: calc(100% - 470px);
+    }
+}
+
+.ant-select-tree-node-content-wrapper {
+    display: inline-block;
+    width: calc(100% - 30px);
+    cursor: pointer;
+    &:hover {
+        background: @primary-color-lighter;
+    }
+}
+
+.normal-badge {
+    background: @primary-color;
+}
+
+.tab-extra-button {
+    background: @panel-background;
+    border: 0px;
+    color: @primary-color;
+    &:hover {
+        color: @primary-color-light;
+        background: @panel-background;
+    }
+    &:focus {
+        background: @panel-background;
+    }
+}
+
+.res-non-header {
+    margin-left: -10px;
+    padding-left: 14px;
+    line-height: 36px;
+    font-size: 15px;
+    color: @place-holder-color;
+    border-top: 1px solid @border-color;
+    border-bottom: 1px solid @border-color;
+}
+
+.res-non-content {
+    height: calc(100% - 350px);
+    min-height: 300px;
+    margin-top: 100px;
+    text-align: center;
+    font-size: 20px;
+    color: @place-holder-color;
+}
+
+.res-non-content-send {
+    margin: 0px 12px;
+    padding: 8px 12px;
+    color: white;
+    background: @primary-color-light;
+    font-size: 14px;
+    border-radius: 4px;
+    i {
+        margin-right: 4px;
+    }
+}
+
+.res-loading-content {
+    border-top: 1px solid @border-color;
+    height: calc(100% - 350px);
+    min-height: 300px;
+    padding-top: 100px;
+    text-align: center;
+    >div {
+        margin-bottom: 12px;
+    }
+    span.ant-spin-dot {
+        display: inline-block;
+    }
+}
+
+.res-status {
+    color: @primary-color;
+}
+
+.res-toggle-size-btn {
+    margin-left: 16px;
+    margin-right: 2px;
+    height: 20px;
+    border: 0px;
+    background: @panel-background;
+    font-weight: bold;
+}
+
+.display-tab-panel {
+    padding: 8px 0px 0px 8px;
+}
+
+.tabpanel-headers-key {
+    font-weight: bold;
+}
+
+.res-tabpanel-list {
+    li {
+        margin: 0px 0px 16px 0px;
+    }
+}
+
+.res-panel-allparam {
+    margin-top: 8px;
+}
+
+.res-panel-allparam-line {
+    line-height: 30px;
+}
+
+.res-panel-allparam-name{
+    font-weight: bold;
+}
+
+.res-panel-pass {
+    color: #02D41E
+}
+
+.res-panel-fail {
+    color: #E00000
+}
+
+.req-opt-assert-invalid{
+    height: 300px;
+    text-align: center;
+    font-size: 20px;
+    color: #9a9a9a;
+    padding-top: 100px;
+}
+
+.res-console-p{
+    line-height: 2;    
+    word-wrap: break-word;
+    white-space: pre-wrap;
+}
+
+.res-console-error {
+    color: #E00000
+}
+
+.res-console-warn {
+    color: #e07700
+}
+
+.res-console-time{
+    margin-right:8px;
+}
+
+.req-copy-btn{ 
+    border: 0px;
+    font-size: 14px;
+    background: transparent;
+    color: @place-holder-color;
+    &:hover {
+        color: @border-color-dark;
+        background: transparent;
+    }
+    &:focus {
+        color: @place-holder-color;
+        background: transparent;
+    }
+}

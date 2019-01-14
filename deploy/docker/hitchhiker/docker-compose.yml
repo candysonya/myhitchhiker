@@ -1,0 +1,17 @@
+version: '2'
+services:
+  hitchhiker:
+    image: brookshi/hitchhiker:v0.14
+    container_name: hitchhiker
+    environment:
+      - HITCHHIKER_DB_HOST=hitchhiker-mysql
+      - HITCHHIKER_APP_HOST=http://localhost:8080/ 
+    ports:
+      - "8080:8080"
+      - "11010:11010"
+    external_links:
+      - hitchhiker-mysql:hitchhiker-mysql
+    volumes:
+      - /my/hitchhiker/data:/usr/src/Hitchhiker/build/global_data/project
+      - /my/hitchhiker/backup:/usr/src/Hitchhiker/build/backup
+      - /my/hitchhiker/logs:/usr/src/Hitchhiker/build/logs

@@ -1,0 +1,143 @@
+@import '../../../style/colors.less';
+
+.schedule-add-btn{
+    font-size: 20px;
+    top: 2px;
+    right: 4px;
+}
+
+.schedule-content{
+    padding: 8px;
+}
+
+.schedule-info{
+    word-wrap: true;
+    font-size: 14px;
+    border-bottom: 1px solid @border-color;
+    padding: 0px 8px 6px 8px;
+    margin:  -2px -8px 0px -8px;
+}
+
+.schedule-table{
+    margin-top: 8px;
+    height: calc(100% - 240);
+}
+
+.schedule-sub-tab-btn{ 
+    border: 0px;
+    font-size: 14px;
+    background: transparent;
+    color: @place-holder-color;
+    &:hover {
+        color: @border-color-dark;
+    background: transparent;
+    }
+    &:focus {
+        color: @place-holder-color;
+        background: transparent;
+    }
+}
+
+.schedule-subtable{
+    position: relative;
+}
+
+div .excel-btn{
+    position: static;
+    font-size: 13px;
+    background: transparent;
+
+    &:hover{
+        background: transparent;
+        color: #2c9ef0;
+    }
+    
+    &:active{
+        background: transparent;
+        color: #0479cc;
+    }
+    
+    &:focus{
+        background: transparent;
+        color: #0479cc;
+    }
+}
+
+.schedule-success{
+    color: #87d068;
+}
+
+.schedule-failed{
+    color: #f50;
+}
+
+.schedule-sub-table-tooltip{
+    .ant-tooltip-inner{
+        max-width: 650px;
+    }
+}
+
+.schedule-item-key{
+    font-weight: bold;
+}
+
+.schedule-console{
+    width: 100%;
+    height: 160px;
+    border-bottom: 1px solid @border-color;
+}
+
+.schedule-console-title {
+    margin-left: -10px;
+    padding-left: 14px;
+    line-height: 36px;
+    font-size: 15px;
+    color: @place-holder-color;
+    border-bottom: 1px solid @border-color;
+}
+
+.schedule-console-content{
+    overflow-y: auto;
+    word-wrap: true;
+    height: 120px;
+    padding: 6px;
+}
+
+.schedule-dlg-list{
+    border: 1px solid @border-color;
+    margin-bottom: 24px;
+    background: #fafafa;
+}
+
+.schedule-dlg-sort-item{
+    list-style: none;
+    line-height: 32px;
+    border-bottom: 1px solid @border-color;
+    z-index: 1000;
+    background: white;
+    cursor: move;
+
+    .keyvalue-dragicon{
+        margin-right: 16px;
+        margin-left: 8px;
+    }
+}
+
+.schedule-item-check{
+    position: absolute;
+    margin-top: -2px;
+    left: 4px;
+}
+
+.schedule-item-suspend{
+    position: absolute;
+    top: 4px;
+    right: 8px;
+    color: black;
+    font-size: 15px;
+}
+
+.keyvalue-match{
+    float: right;
+    margin-right: 16px;
+}

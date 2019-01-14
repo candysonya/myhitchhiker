@@ -1,0 +1,65 @@
+{
+    "app": {
+        "env": "DEV",
+        "host": "http://localhost:3000/",
+        "port": 8080,
+        "api": "http://localhost:81/api/",
+        "language": "zh",
+        "encryptKey": "hitchhikerapi",
+        "defaultPassword": "123456",
+        "encryptPassword": false,
+        "tempUser": "test@test.test",
+        "tempDelKey": "test",
+        "sync": false,
+        "syncInterval": 30,
+        "defaultHeaders": [
+            "Accept:*/*",
+            "User-Agent:Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.113 Safari/537.36",
+            "Cache-Control:no-cache"
+        ],
+        "requestTimeout": 1800000,
+        "scriptTimeout": 60000,
+        "safeVM": false,
+        "enableUpload": true,
+        "inviteMemberDirectly": true
+    },
+    "db": {
+        "host": "localhost",
+        "port": 3306,
+        "username": "root",
+        "password": "123456",
+        "database": "hitchhiker"
+    },
+    "schedule": {
+        "duration": 60,
+        "storeUnit": "count",
+        "storeLimit": 50,
+        "storeContent": "forFail",
+        "pageSize": 20
+    },
+    "stress": {
+        "type": "node",
+        "storeMaxCount": 5,
+        "stressHost": "",
+        "stressPort": 11010,
+        "stressUpdateInterval": 1000
+    },
+    "user": {
+        "registerMailConfirm": false
+    },
+    "mail": {
+        "host": "http://email.hitchhiker-api.com/api/mail/",
+        "customType": "none",
+        "customApi": "http://",
+        "smtp": {
+            "host": "smtp.qq.com",
+            "port": 465,
+            "tls": true,
+            "user": "***@qq.com",
+            "pass": "****",
+            "from": "",
+            "nickname": "",
+            "rejectUnauthorized": false
+        }
+    }
+}

@@ -1,0 +1,194 @@
+0.1.0:
+    ✔ create/update/del project @today @done (3/30/2017, 9:31:31 PM)
+    ✔ record tree @today @done (2017/4/1 下午7:16:50)
+    ✔ test script @done (3/31/2017, 1:07:53 PM)
+    ✔ register's email @done (4/7/2017, 10:43:51 AM)
+    ✔ find password @done (4/11/2017, 10:22:32 AM)
+    ✔ change password @done (4/11/2017, 10:22:33 AM)
+    ✔ run time @done (3/31/2017, 9:51:45 PM)
+    ✔ share to project @done (4/11/2017, 10:22:36 AM)
+    ✔ invite user @done (2017/4/9 下午4:55:51)
+    ✔ invite to project @done (2017/4/9 下午4:55:52)
+    ✔ session maxage(2d, rolling) @done (2017/4/2 上午12:11:25)
+    ✔ error handle @done (2017/4/2 下午3:04:54)
+    ✔ miss session @done (2017/4/2 下午6:48:35)
+    ✔ message @done (2017/4/2 下午10:11:44)
+    ✔ auto generate accout for invite user @done (2017/4/9 下午10:59:31) // TODO: need mail password??
+    ✔ project @done (2017/5/30 下午12:46:19)
+    ✔ tab change/unchange status @done (5/16/2017, 12:47:02 PM)
+    ✔ confirm when close changed tab @done (5/16/2017, 1:36:26 PM)
+    ✔ request header/body option @done (2017/5/16 下午10:05:11)
+    ✔ add tab button @done (5/16/2017, 6:33:08 PM)
+    ✔ snippets @done (2017/5/16 下午11:07:40)
+    ✔ save collection list sort @done (5/17/2017, 12:50:52 PM)
+    ✔ collection create/edit/del @done (5/22/2017, 1:32:20 PM)
+    ✔ folder create/edit/del @done (5/19/2017, 6:47:02 PM)
+    ✔ record duplicate @done (5/19/2017, 6:47:11 PM)
+    ✔ edit null/empty @done (5/19/2017, 7:04:18 PM)
+    ✔ record del @done (2017/5/17 下午10:41:17)
+    ✔ record/folder move @done (2017/5/20 下午4:08:05)
+    ✔ split line @done (2017/5/20 下午9:48:09)
+    ✔ tip @done (5/22/2017, 2:00:46 PM)
+    ✔ input spell check @done (5/22/2017, 5:59:42 PM)
+    ✔ request error handle @done (2017/6/1 下午10:33:09)
+    ✔ local storage for record states & refresh merge with tabs @done (2017/6/3 下午4:27:18)
+    ✔ sync status @done (2017/6/1 下午10:33:11)
+    ✔ top banner @done (2017/6/1 下午10:33:13)
+    ✔ udpate tab name after saving request @done (2017/6/3 下午9:38:49)
+    ✔ can't open the same record after delete its tab @done (2017/6/3 下午9:34:58)
+    ✔ own project @done (2017/6/4 下午12:24:39)
+    ✔ store cookie after request @done (2017/6/3 下午7:48:39)
+    ✔ schedule run now @done (6/22/2017, 6:03:06 PM)
+    ✔ should not show info if there is no schedule @done (6/22/2017, 6:03:14 PM)
+    ✔ schedule suspend @done (2017/6/22 下午10:43:58)
+    ✔ schedule item loading @done (6/23/2017, 11:08:30 AM)
+    ✔ schedule send emails @done (6/26/2017, 6:37:39 PM)
+    ✔ schedule record order @done (6/26/2017, 6:37:48 PM)
+    ✔ schedule run now , update item label @done (2017/6/26 下午10:33:55)
+    ✔ schedule cookie save @done (6/28/2017, 1:13:16 PM)
+    ✔ keep schedule process alive @done (2017/6/26 下午10:33:56)
+    ✔ schedule need check collection/env valid @done (6/19/2017, 9:47:51 AM)
+    ✔ record change time line (db) @done (2017/6/28 下午9:51:15)
+    ✔ document db @done (2017/6/28 下午8:47:11)
+    ✔ default open collection @done (2017/6/3 下午9:57:22)
+    ✔ cookie invalid indirect to login page @done (2017/6/17 上午11:33:04)
+    ✔ improve performance @done (2017/7/9 下午3:53:54)
+    ✔ login ui / logout redirect @done (2017/6/29 下午11:01:28)
+    ✔ user password should hide @done (2017/7/9 下午4:06:49)
+    ✔ change pwd @done (6/29/2017, 2:06:04 PM)
+    ✔ log @done (2017/7/9 下午3:54:02)
+    ✔ vm safety @done (2017/7/9 下午5:04:31)
+    ✔ invite user / test @done (2017/7/9 下午10:38:42)
+    ✔ import postman @done (7/11/2017, 6:38:16 PM)
+    ✔ write test case @done (7/11/2017, 6:38:20 PM)
+    ✔ add sample collection/project/environment/schedule.. for new user @done (2017/7/16 下午5:57:09)
+    ✔ mail en & write password @done (2017/7/23 下午4:54:24)
+    ✔ test @done (2017/7/16 下午3:52:34)
+    ✔ set temp variable in test @done (2017/7/29 下午12:29:12)
+    ✔ build to live @done (2017/8/13 上午11:05:46)
+    ✔ unit test @done (2017/8/13 上午11:05:43)
+0.1.1:
+    ✔ new record in menu of collection/folder @done (2017/8/11 下午11:06:36)
+    ✔ content-type miss after duplicate sometimes @done (2017/8/11 下午11:36:59)
+    ✔ record match/unmatch in schedule @done (2017/8/12 下午4:31:44)
+    ✔ localhost mapping @done (2017/8/13 下午11:06:12)
+    ✔ schedule should only display envs of selected collection @done (2017/8/22 下午9:59:45)
+    ✔ add folder name for schedule result @done (2017/8/22 下午10:01:09)
+    ✔ record history @done (2017/8/22 下午10:01:10)
+    ✔ record diff @done (2017/8/22 下午10:01:11)
+    ✔ temp account login @done (2017/8/23 上午1:15:55)
+    ✔ empty schedule error @done (2017/8/23 上午10:20:05)
+    ✔ remove email useless '}' @done (8/29/2017, 5:47:00 PM)
+    ✔ folder can't expand if filter project @done (2017/8/24 下午10:01:45)
+0.1.2:
+    ✔ request header auto complete @done (2017/8/29 下午11:09:23)
+    ✔ clear local cache @done (2017/8/30 下午11:27:43)
+    ✔ favorites headers @done (2017/9/1 上午12:39:33)
+    ✔ tests global function @done (2017/9/2 下午5:19:33)
+    ✔ use default font for non-edit area @done (2017/9/2 下午7:02:35)
+    ✔ fetch timeout in browser @done (9/4/2017, 2:25:26 PM)
+0.1.3:
+    ✔ process data before comparing @done (9/11/2017, 10:37:27 PM)
+    ✔ request parameterization, storage variable @done (9/22/2017, 6:58:40 PM)
+    ✔ should exclude cookie if local cookie is empty @done (9/12/2017, 10:44:54 PM)
+    ✔ handle undefined value of tests @done (9/23/2017, 9:19:47 AM)
+    ✔ send request with common header like 'accept' etc.. @done (9/23/2017, 2:25:58 PM)
+0.2.0:
+    ✔ run schedule in background with empty request will throw exception @done (9/29/2017, 6:45:10 PM)
+    ✔ stree test @done (10/10/2017, 10:08:28 PM)
+0.3.0:
+    ✔ sync user data per 30s @done (10/29/2017, 5:52:24 PM)
+    ✔ url encode @done (10/29/2017, 5:52:25 PM)
+0.4:
+    ✔ #26 pre request script @done (11/11/2017, 10:45:46 AM)
+    ✔ #29 project folder system @done (11/11/2017, 10:45:47 AM)
+    ✔ #22 min unit for schedule @done (11/11/2017, 11:45:24 PM)
+    ✔ #34 email notify interface @done (11/11/2017, 4:26:18 PM)
+    ✔ #24 schedule sort request invalid @done (11/8/2017, 1:38:25 PM)
+    ✔ #24 add a run now interface @done (11/11/2017, 5:36:16 PM)
+    ✔ sync will override @done (11/12/2017, 10:53:17 PM)
+    ✔ env edit dialog will be clear when sync data @done (11/11/2017, 11:12:31 AM)
+0.5:
+    ✔ #41 New property `request` for Script included url, body, headers, method, new method `setRequest(request)` to change request before sent. @done (12/1/2017, 12:56:33 PM)
+    ✔ #41 Common Pre Request Script for Collection，this script will apply to all requests of this Collection. @done (12/1/2017, 12:56:34 PM)
+    ✔ #42 New config setting `inviteMemberDirectly` used to set if need email to invite members to Project, default is true (without email)。 @done (12/1/2017, 12:56:35 PM)
+    ✔ #43 New document in gitboook： https://brookshi.gitbooks.io/hitchhiker/content/en/introduction.html @done (12/1/2017, 12:56:36 PM)
+    ✔ #44 New option `Request Follow Redirect` for Collection used to follow redirect if response status is 3xx, default is false. @done (12/1/2017, 12:56:37 PM)
+    ✔ #51 New option `Request Strict SSL` for Colllection used to check SSL cert, default is false. @done (12/1/2017, 12:56:37 PM)
+0.6:
+    ✔ #45 Stress test support ES6 and js lib, data. @done (12/16/2017, 3:26:11 PM)
+    ✔ Test & Global function support Environment @done (12/11/2017, 1:34:05 PM)
+    ✔ #47 display image if response header include 'image/*' @done (12/16/2017, 9:37:25 PM)
+    ✔ #62 global function miss if send request @done (12/16/2017, 5:22:03 PM)
+    ✔ #59 exception caused by image data of schedule record @done (12/16/2017, 9:37:27 PM)
+    ✔ #55 failed to construct WebSocket @done (12/16/2017, 10:04:11 PM)
+    ✔ schedule record timer take 1 min error @done (12/16/2017, 10:41:33 PM)
+    ✔ name will be reset if change method @done (12/16/2017, 6:03:13 PM)
+0.7:
+    ✔ #63 support console.log debug @done (12/19/2017, 7:03:08 PM)
+    ✔ #57 parameters could be a parameter @done (12/30/2017, 12:27:42 PM)
+    ✔ #34 smtp service @done (12/20/2017, 1:04:38 AM)
+    ✔ #30 support swagger import @done (12/27/2017, 12:02:59 AM)
+    ✔ new request from curl @done (12/24/2017, 8:39:01 PM)
+    ✔ generate code for request @done (12/26/2017, 12:31:28 PM)
+    ✔ beauty body(json/xml) @done (12/23/2017, 3:40:26 PM)
+    ✔ beautify xml response @done (12/23/2017, 11:26:06 PM)
+    ✔ schedule compare display diff @done (12/23/2017, 11:15:18 PM)
+    ✔ common pre script save error for new collection, strict ssl null @done (12/23/2017, 11:32:31 PM)
+    ✔ schedule save failed when check and uncheck compare @done (12/23/2017, 4:17:49 PM)
+    ✔ import postman json failed - headers may be null @done (12/23/2017, 4:20:21 PM)
+    ✔ request's duration miss waiting connect @done (12/27/2017, 6:50:10 PM)
+    ✔ not stop when find password failed @done (12/27/2017, 12:46:12 PM)
+    ✔ remove error annotate of variable in script/parameters @done (12/29/2017, 12:14:32 AM)
+0.8: 
+    ✔ schedule statistics mode @done (1/9/2018, 6:57:58 PM)
+    ✔ #67 stop stress test @done (1/11/2018, 12:46:45 PM)
+    ✔ #64 run all schedule @done (1/11/2018, 12:01:36 AM)
+    ✔ schedule record filter @done (1/11/2018, 10:42:31 PM)
+    ✔ package compiled app @done (1/14/2018, 12:45:49 AM)
+    ✔ change duplicated env will apply the change to origin env @done (1/11/2018, 1:45:34 PM)
+
+0.9:
+    ✔ test function base on UI @done (2/1/2018, 9:34:57 PM)
+    ✔ use domain name for host in yml will cause stress test connect failed @done (2/1/2018, 11:08:24 PM)
+    ✔ add schedule record store mode @done (2/1/2018, 9:34:55 PM)
+
+backlog:
+    ☐ pre script, header, auth, test in Collection/folder level
+    ☐ edit global function in collection module
+    ☐ handle zip response
+    ☐ auth
+    ☐ response timeline
+    ☐ resize request panel and response panel height 
+    ☐ distributed stress nodejs test
+    ☐ stress result export to excel
+    ☐ form data, text, binary body type
+    ☐ import postman env
+    ☐ convert variable function while importing postman collection
+    ☐ improve test for param request (test for each param, copy param to test)
+    ☐ collection tree follow active tab(expand collection/folder)
+    ☐ project share collection/env
+    ☐ body type
+    ☐ project share collection/env for own
+    ☐ login user email case sensitive in linux mysql
+    ☐ api data zip
+    ☐ variable highlight
+    ☐ save all tabs, close all tabs, close all but active.
+    ☐ Me project should be removable
+    ☐ sub folder
+
+    ☐ data mock
+    ☐ test result detail
+    ☐ hot key
+    ☐ export
+
+    ☐ api document
+
+    ☐ project permission
+
+
+    ☐ import from fiddler package
+
+4a0a4b0cb56b86075a895be24d8eba06
+59ce656014dd6b3b447af812112d5c2618cbed9e
+6dad660784ae272052fdc9df960c67d6
