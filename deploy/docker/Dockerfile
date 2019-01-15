@@ -6,7 +6,7 @@ RUN apt-get update
 # code folder
 RUN mkdir -p /usr/src
 WORKDIR /usr/src
-RUN git clone -b release https://github.com/candysonya/myhitchhiker.git
+RUN git clone -b master https://github.com/candysonya/myhitchhiker.git
 WORKDIR /usr/src/myhitchhiker
 
 # npm install -g

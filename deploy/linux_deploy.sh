@@ -7,7 +7,7 @@ myhost="http://10.10.56.25:8080/"
 
 export NODE_ENV="develop"
 
-git clone -b release https://github.com/candysonya/myhitchhiker.git
+git clone -b master https://github.com/candysonya/myhitchhiker.git
 cd ./myhitchhiker
 npm install -g pm2 yarn gulp-cli typescript@2.3.3
 npm install gulp -D

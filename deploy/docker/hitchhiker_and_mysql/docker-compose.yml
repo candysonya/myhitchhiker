@@ -1,8 +1,8 @@
 version: '2'
 services:
   hitchhiker:
-    image: brookshi/hitchhiker:v0.14
-    container_name: hitchhiker
+    image: candysonya/myhitchhiker:latest
+    container_name: myhitchhiker
     environment:
       - HITCHHIKER_DB_HOST=hitchhiker-mysql
       - HITCHHIKER_APP_HOST=http://10.10.56.25:8080/ # should change before deploying.
@@ -20,8 +20,8 @@ services:
     image: mysql:5.7
     container_name: hitchhiker-mysql
     environment:
-      - MYSQL_ROOT_PASSWORD=hitchhiker888
-      - MYSQL_DATABASE=hitchhiker-prod
+      - MYSQL_ROOT_PASSWORD=123456
+      - MYSQL_DATABASE=hitchhiker
     volumes:
       - ./hitchhiker-mysql.cnf:/etc/mysql/conf.d/hitchhiker.cnf
       - /my/hitchhiker/sqldata:/var/lib/mysql
