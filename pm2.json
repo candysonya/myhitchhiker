@@ -1,6 +1,6 @@
 {
     "apps": [{
-        "name": "hitchhiker",
+        "name": "myhitchhiker",
         "script": "./build/index.js",
         "watch": false,
         "env": {
