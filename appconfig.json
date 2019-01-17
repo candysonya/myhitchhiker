@@ -27,8 +27,8 @@
         "host": "localhost",
         "port": 3306,
         "username": "root",
-        "password": "123456",
-        "database": "hitchhiker"
+        "password": "hitchhiker888",
+        "database": "hitchhiker-prod"
     },
     "schedule": {
         "duration": 60,
