@@ -1,6 +1,6 @@
 set NODE_ENV=develop
-git clone -b master https://github.com/candysonya/myhitchhiker.git
-cd myhitchhiker
+git clone -b release https://github.com/brookshi/Hitchhiker.git
+cd hitchhiker
 call npm install
 cd client
 call npm install

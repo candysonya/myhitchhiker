@@ -4,11 +4,11 @@ REM ensure mysql is installed with user:'root' password: 'hitchhiker888' and cre
 REM replace myhost with your ip
 
 cd /d %~dp0
-set host=http://10.10.56.25:8080/
+set host=http://10.86.18.215:8080/
 
 set NODE_ENV=develop
-git clone -b master https://github.com/candysonya/myhitchhiker.git
-cd myhitchhiker
+git clone -b release https://github.com/brookshi/Hitchhiker.git
+cd hitchhiker
 call npm install -g pm2 yarn gulp-cli typescript@2.3.3 pm2-windows-service
 call npm install gulp -D
 call npm install typescript@2.3.3 --save

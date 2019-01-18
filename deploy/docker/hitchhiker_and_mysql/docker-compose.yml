@@ -1,7 +1,7 @@
 version: '2'
 services:
   hitchhiker:
-    image: candysonya/myhitchhiker:latest
+    image: brookshi/hitchhiker:v0.14
     container_name: hitchhiker
     environment:
       - HITCHHIKER_DB_HOST=hitchhiker-mysql
@@ -13,9 +13,9 @@ services:
     links:
       - hitchhiker-mysql:hitchhiker-mysql
     volumes:
-      - /my/hitchhiker/data:/usr/src/myhitchhiker/build/global_data/project
-      - /my/hitchhiker/backup:/usr/src/myhitchhiker/build/backup
-      - /my/hitchhiker/logs:/usr/src/myhitchhiker/build/logs
+      - /my/hitchhiker/data:/usr/src/Hitchhiker/build/global_data/project
+      - /my/hitchhiker/backup:/usr/src/Hitchhiker/build/backup
+      - /my/hitchhiker/logs:/usr/src/Hitchhiker/build/logs
   hitchhiker-mysql:
     image: mysql:5.7
     container_name: hitchhiker-mysql

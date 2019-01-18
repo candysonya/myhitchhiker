@@ -3,12 +3,12 @@
 # ensure mysql is installed with user:'root' password: 'hitchhiker888' and create database 'hitchhiker-prod'
 # replace myhost with your ip, keep 8080 port
 
-myhost="http://10.10.56.25:8080/"
+myhost="http://10.86.18.215:8080/"
 
 export NODE_ENV="develop"
 
-git clone -b master https://github.com/candysonya/myhitchhiker.git
-cd ./myhitchhiker
+git clone -b release https://github.com/brookshi/Hitchhiker.git
+cd ./Hitchhiker
 npm install -g pm2 yarn gulp-cli typescript@2.3.3
 npm install gulp -D
 npm install typescript@2.3.3 --save

@@ -4,7 +4,7 @@
         "host": "http://localhost:3000/",
         "port": 8080,
         "api": "http://localhost:81/api/",
-        "language": "zh",
+        "language": "en",
         "encryptKey": "hitchhikerapi",
         "defaultPassword": "123456",
         "encryptPassword": false,
@@ -28,7 +28,7 @@
         "port": 3306,
         "username": "root",
         "password": "hitchhiker888",
-        "database": "hitchhiker-prod"
+        "database": "hitchhiker"
     },
     "schedule": {
         "duration": 60,
