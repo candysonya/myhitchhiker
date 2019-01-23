@@ -83,10 +83,7 @@ class LoginPage extends React.Component<LoginPageProps, LoginPageState> {
                         <div style={{ float: 'right', maxWidth: 550 }}>
                             <div className="login-page-desc-title">{Msg('Login.Desc.Title')}</div>
                             <div className="login-page-desc-content">
-                                {Msg('Login.Desc.Content', {
-                                    opensource: <b><a target="blank" href="https://github.com/brookshi/hitchhiker">{Msg('Login.Desc.OpenSource')}</a></b>,
-                                    break: <br />
-                                })}
+                                {Msg('Login.Desc.Content')}
                             </div>
                         </div>
                     </Col>
