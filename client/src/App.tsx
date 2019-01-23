@@ -2,13 +2,10 @@ import * as React from 'react';
 import { Layout, Menu, Icon, Tooltip, Button } from 'antd';
 import { ClickParam } from 'antd/lib/menu';
 import TestCase from './modules/test_case';
-import Collection from './modules/collection';
 import Project from './modules/project';
 import Schedule from './modules/schedule';
 import HeaderPanel from './modules/header';
 import StressTest from './modules/stress_test';
-import ApiDocument from './modules/document';
-import ApiMock from './modules/api_mock';
 import './style/perfect-scrollbar.min.css';
 import { State } from './state';
 import { connect, Dispatch } from 'react-redux';
@@ -67,20 +64,14 @@ class App extends React.Component<AppProps, AppState> {
 
   private activeModule = () => {
     switch (this.props.activeModule) {
-	    case 'test_case':
-	    	return <TestCase />;
-      case 'collection':
-        return <Collection />;
+      case 'test_case':
+        return <TestCase />;
       case 'project':
         return <Project />;
       case 'schedule':
         return <Schedule />;
       case 'stress_test':
         return <StressTest />;
-      case 'api_doc':
-        return <ApiDocument />;
-      case 'api_mock':
-        return <ApiMock />;
       default:
         return <TestCase />;
     }
@@ -113,11 +104,6 @@ class App extends React.Component<AppProps, AppState> {
                   <Icon type="wallet" />
                 </Tooltip>
               </Menu.Item>
-	            <Menu.Item key="collection">
-		            <Tooltip mouseEnterDelay={0} placement="right" title={Msg('App.Collections')}>
-			            <Icon type="wallet" />
-		            </Tooltip>
-	            </Menu.Item>
               <Menu.Item key="project">
                 <Tooltip mouseEnterDelay={0} placement="right" title={Msg('App.Project')}>
                   <Icon type="solution" />
@@ -131,16 +117,6 @@ class App extends React.Component<AppProps, AppState> {
               <Menu.Item key="stress_test">
                 <Tooltip mouseEnterDelay={0} placement="right" title={Msg('App.StressTest')}>
                   <Icon type="code-o" />
-                </Tooltip>
-              </Menu.Item>
-              <Menu.Item key="api_doc">
-                <Tooltip mouseEnterDelay={0} placement="right" title={Msg('App.ApiDocument')}>
-                  <Icon type="file-text" />
-                </Tooltip>
-              </Menu.Item>
-              <Menu.Item key="api_mock">
-                <Tooltip mouseEnterDelay={0} placement="right" title={Msg('App.Mock')}>
-                  <Icon type="api" />
                 </Tooltip>
               </Menu.Item>
             </Menu>

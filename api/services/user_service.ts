@@ -105,7 +105,9 @@ export class UserService {
         const user = await rep.getOne();
 
 	    const system_projects = await connection.getRepository(Project).createQueryBuilder('project').where('project.ownerId=:uid', {uid:'0'}).getMany();
-	    user.projects = [...user.projects, ...system_projects];
+	    if (user) {
+		    user.projects = [...user.projects, ...system_projects];
+	    }
 
         if (user && needProject) {
             user.projects = await ProjectService.getProjects(user.projects.map(t => t.id), true, false, true, true);
