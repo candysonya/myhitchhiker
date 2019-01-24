@@ -102,13 +102,13 @@ gulp.task('config', [], function () {
         .pipe(gulp.dest('./client/src/utils/'))
         .on('end', function () {
             gulp.src('./appconfig.json')
-                .pipe(replace('localhost:3000', `localhost:6666`))
-                .pipe(replace('localhost:81', `localhost:6666`))
+                .pipe(replace('localhost:3000', `localhost:8080`))
+                .pipe(replace('localhost:81', `localhost:8080`))
                 .pipe(replace('DEV', `PROD`))
                 .pipe(gulp.dest('./'))
                 .on('end', function () {
                     gulp.src('./client/package.json')
-                        .pipe(replace('localhost:81', `localhost:6666`))
+                        .pipe(replace('localhost:81', `localhost:8080`))
                         .pipe(gulp.dest('./client/'));
                 });
         });
