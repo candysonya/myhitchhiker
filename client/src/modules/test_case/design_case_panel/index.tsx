@@ -177,7 +177,7 @@ class DesignCasePanel extends React.Component<DesignCasePanelProps, DesignCasePa
         if (this.reqPanel) {
             const { activeKey, resizeResHeight, resHeight } = this.props;
             this.reqHeight = this.reqPanel.clientHeight;
-            const newResHeight = this.reqResPanel.clientHeight - this.reqHeight - 88;
+            const newResHeight = this.reqResPanel.clientHeight + 300 - this.reqHeight;
             if (resHeight !== newResHeight) {
                 resizeResHeight(activeKey, newResHeight);
             }
